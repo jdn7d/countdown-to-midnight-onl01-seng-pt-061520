@@ -4,7 +4,8 @@ def countdown(integer)
 
     puts "#{integer} SECOND(S)!"
     def countdown_with_sleep(integer)
-    sleep 1
+    time = Time.now
+    sleep(1.seconds)
     end
     integer -=1
   end
